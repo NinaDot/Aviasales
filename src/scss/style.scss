@@ -1,17 +1,15 @@
 @import '~normalize.css';
-$color: DeepSkyBlue;
-$main: white;
-h1 {
-    color: $color;
-    background-color: darkslategray;
-    
+@import 'ticket';
+
+$background: #F3F7FA;
+$checkboxColor: #9ABBCE;
+$mainColor: #2196F3;
+
+body{
+    margin: 0 auto;
+    background-color: $background;
 }
-div{
+.logo {
     text-align: center;
-    
-  }
-img{
-    height: 110px;
-    width: 200px;
-    background-color: $main;
 }
+

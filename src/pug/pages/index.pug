@@ -8,16 +8,35 @@ html(lang="en")
     body 
         div
             div.logo
-                img(src="", alt="Logo")
+                img(src="../../images/Logo.png", alt="Logo")
             aside
                 form(action="", method="get") 
+                    p Количество пересадок
                     p 
+                        input(type="checkbox", id="all", name="first", value="Все")
+                        label 
+                            span
+                            |Все
+                    p 
+                        input(type="checkbox", name="", value="Без пересадок")
+                        label 
+                            span
+                            |Без пересадок
                     p
-                        input#(type="checkbox", name="", value="")
-                        input#(type="checkbox", name="", value="")
-                        input#(type="checkbox", name="", value="")
-                        input#(type="checkbox", name="", value="")
-                        input#(type="checkbox", name="", value="")
+                        input(type="checkbox", name="", value="1 пересадка")
+                        label 
+                            span
+                            |1 пересадка
+                    p
+                        input(type="checkbox", name="", value="2 пересадки")
+                        label 
+                            span
+                            |2 пересадки
+                    p
+                        input(type="checkbox", name="", value="3 пересадки")
+                        label 
+                            span
+                            |3 пересадки
             div
                 header 
                 main 

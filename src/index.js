@@ -1,3 +1,4 @@
-alert("Hello, Webpack!")
 import './scss/style.scss'
-import './css/style.css'
+import './scss/ticket.scss'
+import './scss/checkbox.scss'
+

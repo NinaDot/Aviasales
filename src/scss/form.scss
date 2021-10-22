@@ -1,0 +1,40 @@
+@import '~normalize.css';
+
+input {
+    display: none;
+}
+
+input[type=checkbox] + label span {
+    border: 1px solid #9ABBCE;
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 4px 8px 8px 8px;
+    vertical-align: middle;
+}
+ input[type=checkbox]:checked + label span::after {
+    border: 1px solid #2196F3;
+}
+.form-title{
+    font-family: Open Sans, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #4A4A4A;
+    text-transform: uppercase;
+}
+.form-text {
+    font-family: Open Sans, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4A4A4A;
+}

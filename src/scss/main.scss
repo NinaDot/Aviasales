@@ -4,6 +4,9 @@
 $background: #F3F7FA;
 $checkboxColor: #9ABBCE;
 $mainColor: #2196F3;
+$font-family: Open Sass, sans-serif;
+$font-color: #4A4A4A;
+
 
 body{
     margin: 0 auto;
@@ -12,4 +15,6 @@ body{
 .logo {
     text-align: center;
 }
-
+.header-choose {
+    border: 2px solid black;
+}

@@ -1,4 +1,4 @@
-import './scss/style.scss'
+import './scss/main.scss'
 import './scss/ticket.scss'
-import './scss/checkbox.scss'
+import './scss/form.scss'
 

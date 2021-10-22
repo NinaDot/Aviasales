@@ -16,5 +16,21 @@ body{
     text-align: center;
 }
 .header-choose {
-    border: 2px solid black;
+    border: 2px solid #DFE5EC;
+    background-color: #FFFFFF;
+}
+.header-choose:hover {
+    border: 2px solid $mainColor;
+}
+.footer-button{
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background-color: $mainColor;
+    color: #FFFFFF;
+
 }

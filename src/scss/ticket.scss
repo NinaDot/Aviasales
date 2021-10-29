@@ -7,13 +7,16 @@ $NumberColor: #4A4A4A;
     font-family: Open Sans;
     font-weight: 600;
     font-style: normal;
-    text-transform: uppercase;
-    background-color: #FFFFFF;
+    text-transform: uppercase;      
+}
+.ticket-wrapper{
     border: 2px solid #DFE5EC;
+    background-color: #FFFFFF;
     padding: 15px;
     border-radius: 5px;
+    margin: 0 0 20px 0;
 }
-.price-main:hover{
+.ticket-wrapper:hover{
     border: 2px solid $PrimeriColor;
 }
 .ticket-header{

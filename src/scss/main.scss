@@ -10,10 +10,24 @@ $font-color: #4A4A4A;
 
 body{
     margin: 0 auto;
+    padding: 0 auto;
     background-color: $background;
+    width: 100%;    
+}
+.container{
+    margin: 0 auto;
+    max-width: 760px; 
+}
+.container-price{
+    display: flex;
+    justify-content: space-between;
 }
 .logo {
     text-align: center;
+}
+.price-header{
+    display: flex;
+    justify-content: center;
 }
 .header-choose {
     border: 2px solid #DFE5EC;
@@ -21,6 +35,10 @@ body{
 }
 .header-choose:hover {
     border: 2px solid $mainColor;
+}
+.price-footer{
+    display: flex;
+    justify-content: center;
 }
 .footer-button{
     font-family: Open Sans;

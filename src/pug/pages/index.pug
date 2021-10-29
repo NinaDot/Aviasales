@@ -9,18 +9,19 @@ html(lang="en")
         div.container
             div.logo
                 img(src="../../images/Logo.png", alt="Logo")
-            aside
-                include ../includes/form.pug
-            div.price
-                header 
-                    div.header-choose
-                        span Самый дешевый
-                    div.header-choose 
-                        span Самый быстрый
-                    div.header-choose
-                        span Оптимальный
-                main 
-                    include ../includes/ticket.pug
-                footer
-                    button.footer-button
-                        span Показать еще 5 билетов!
+            div.container-price
+                aside
+                    include ../includes/form.pug
+                div.price
+                    header.price-header
+                        div.header-choose
+                            span Самый дешевый
+                        div.header-choose 
+                            span Самый быстрый
+                        div.header-choose
+                            span Оптимальный
+                    main 
+                        include ../includes/ticket.pug
+                    footer.price-footer
+                        button.footer-button
+                            span Показать еще 5 билетов!

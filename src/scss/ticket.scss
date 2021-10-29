@@ -1,2 +1,67 @@
 @import '~normalize.css';
+$PrimeriColor: #2196F3;
+$TextColor: #A0B0B9;
+$NumberColor: #4A4A4A; 
 
+.price-main{
+    width: 100%;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    border: 2px solid #DFE5EC;;
+}
+.price-main:hover{
+    border: 2px solid $PrimeriColor;
+}
+.ticket-header{
+    display: flex;
+    justify-content: space-between;
+}
+.ticket-price{ 
+    font-size: 24px;
+    line-height: 24px;
+    color: $PrimeriColor;
+}
+//.ticket-logo
+
+//.ticket-main
+
+.ticket-destination{
+    display: flex;
+    justify-content: space-between;
+}
+//.ticket-date
+//.ticket-duration
+//.ticket-stops
+.ticket-stops__name {
+    font-size: 12px;
+    line-height: 18px;
+    color: $TextColor;
+}
+.ticket-duration__name {
+    font-size: 12px;
+    line-height: 18px;
+    color: $TextColor;
+}
+.ticket-destination__name{
+    font-size: 12px;
+    line-height: 18px;
+    color: $TextColor;
+}
+.ticket-stops__number {  
+    font-size: 14px;
+    line-height: 21px;
+    color: $NumberColor;
+}
+.ticket-duration__number{
+    font-size: 14px;
+    line-height: 21px;
+    color: $NumberColor;
+}
+.ticket-destination__number{
+    font-size: 14px;
+    line-height: 21px;
+    color: $NumberColor;
+}

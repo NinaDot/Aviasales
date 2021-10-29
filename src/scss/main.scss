@@ -21,17 +21,31 @@ body{
 .container-price{
     display: flex;
     justify-content: space-between;
+    
+    
 }
 .logo {
     text-align: center;
+    padding: 0 0 25px 0;
+}
+.price{
+    box-sizing:border-box;
+    width: 502px;
+    
 }
 .price-header{
     display: flex;
     justify-content: center;
+    margin: 0 0 20px 0;
+
 }
 .header-choose {
     border: 2px solid #DFE5EC;
     background-color: #FFFFFF;
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;  
 }
 .header-choose:hover {
     border: 2px solid $mainColor;
@@ -50,5 +64,9 @@ body{
     text-align: center;
     background-color: $mainColor;
     color: #FFFFFF;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 20px 0 0 0;
 
 }

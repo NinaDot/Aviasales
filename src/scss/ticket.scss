@@ -3,14 +3,15 @@ $PrimeriColor: #2196F3;
 $TextColor: #A0B0B9;
 $NumberColor: #4A4A4A; 
 
-.price-main{
-    width: 100%;
+.price-main{  
     font-family: Open Sans;
     font-weight: 600;
     font-style: normal;
     text-transform: uppercase;
     background-color: #FFFFFF;
-    border: 2px solid #DFE5EC;;
+    border: 2px solid #DFE5EC;
+    padding: 15px;
+    border-radius: 5px;
 }
 .price-main:hover{
     border: 2px solid $PrimeriColor;

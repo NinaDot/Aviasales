@@ -1,9 +1,14 @@
 @import '~normalize.css';
 
+.aside-form{
+    box-sizing:border-box;
+    width: 232px;
+}
 form{
     background: #FFFFFF;
     border: 2px solid #DFE5EC;
-    
+    padding: 10px 0 0 15px;
+    border-radius: 5px;
 }
 form:hover{
     border: 2px solid #2196F3;

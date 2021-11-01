@@ -50,6 +50,16 @@ body{
 .header-choose:hover {
     border: 2px solid $mainColor;
 }
+.header-choose__checked{
+    border: 2px solid $mainColor;
+    background-color: $mainColor;
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px; 
+    color: white;
+    text-shadow: $font-color;
+}
 .price-footer{
     display: flex;
     justify-content: center;

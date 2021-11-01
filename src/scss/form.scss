@@ -7,51 +7,56 @@
 form{
     background: #FFFFFF;
     border: 2px solid #DFE5EC;
-    padding: 10px 0 0 15px;
+    padding: 13px 0 0 20px;
     border-radius: 5px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    color: #4A4A4A;
+    text-align: left;
 }
 form:hover{
     border: 2px solid #2196F3;
 }
-input {
-    display: none;
-}
-
-input[type=checkbox] + label span {
-    border: 1px solid #9ABBCE;
-    box-sizing: border-box;
-    border-radius: 2px;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 4px 8px 8px 8px;
-    vertical-align: middle;
-}
- input[type=checkbox]:checked + label span::after {
-    border: 1px solid #2196F3;
-    background-color: #F1FCFF;
-    border: 1px solid #2196F3;
-    
-}
-
 .form-title{
-    font-family: Open Sans, sans-serif;
     font-size: 12px;
-    font-style: normal;
     font-weight: 600;
     line-height: 12px;
     letter-spacing: 0.5px;
-    text-align: left;
-    color: #4A4A4A;
     text-transform: uppercase;
 }
 .form-text {
-    font-family: Open Sans, sans-serif;
     font-size: 13px;
-    font-style: normal;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0px;
-    text-align: left;
-    color: #4A4A4A;
 }
+input {
+    display: none;
+}
+input+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    margin: 0 0 20px 0;
+  }
+input+label::before {
+    content: '';
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 10%;
+    margin: 0 5px 0 0;
+  }
+input:checked+label::before {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url(../images/Checkbox.png);
+  }
+input:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #0b76ef;
+  }
+
+

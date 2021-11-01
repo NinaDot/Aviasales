@@ -1,28 +1,23 @@
 form(action="", method="get") 
     div.form-title 
         p Количество пересадок
-    p.form-text
-        input(type="checkbox", id="all", name="first", value="Все")
-        label 
-            span
+    div.form-text
+        input(type="checkbox", id="all", name="all", value="Все")
+        label(for="all")
             |Все
-    p.form-text 
-        input(type="checkbox", name="", value="Без пересадок")
-        label 
-            span
+    div.form-text 
+        input(type="checkbox", id="not", name="not", value="Без пересадок")
+        label(for="not")
             |Без пересадок
-    p.form-text
-        input(type="checkbox", name="", value="1 пересадка")
-        label 
-            span
+    div.form-text
+        input(type="checkbox", id="oneConnection", name="oneConnection", value="1 пересадка")
+        label(for="oneConnection")
             |1 пересадка
-    p.form-text
-        input(type="checkbox", name="", value="2 пересадки")
-        label 
-            span
+    div.form-text
+        input(type="checkbox", id="twoConnection", name="twoConnection", value="2 пересадки")
+        label(for="twoConnection")
             |2 пересадки
-    p.form-text
-        input(type="checkbox", name="", value="3 пересадки")
-        label 
-            span
+    div.form-text
+        input(type="checkbox", id="threeConnection", name="threeConnection", value="3 пересадки")
+        label(for="threeConnection")
             |3 пересадки             

@@ -1,11 +1,17 @@
 window.onload = function () {
 
-for(var i = 0; i < document.getElementsByClassName('choose').length; i++) {
+  
+      let a = document.getElementsByClassName('choose')[0];
+      let b = document.getElementsByClassName('choose')[1];
 
-    let a = document.getElementsByClassName('choose')[i];
-    a.onclick = function (){
-        a.classList.toggle('header-choose');
-        a.classList.toggle('header-choose__checked');
-    }
+      a.onclick = function (){ 
+        a.classList.add('header-choose__checked');  
+        b.classList.remove('header-choose__checked');            
+      } 
+    
+      b.onclick = function (){ 
+        b.classList.add('header-choose__checked'); 
+        a.classList.remove('header-choose__checked');            
+      } 
   }
-}
+

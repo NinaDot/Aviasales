@@ -14,7 +14,16 @@ $NumberColor: #4A4A4A;
     background-color: #FFFFFF;
     padding: 15px;
     border-radius: 5px;
+    margin: 0 0 20px 0;    
+}
+.ticket-wrapper__none{
+    border: 2px solid #DFE5EC;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 5px;
     margin: 0 0 20px 0;
+    display:none;
+    
 }
 .ticket-wrapper:hover{
     border: 2px solid $PrimeriColor;
@@ -35,6 +44,7 @@ $NumberColor: #4A4A4A;
 .ticket-destination{
     display: flex;
     justify-content: space-between;
+   
 }
 //.ticket-date
 //.ticket-duration
